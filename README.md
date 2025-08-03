@@ -1,2 +1,3 @@
-# inkarus-tools
-Utility scripts and development tools for the Inkarus project — including i18n validation, JSON templates, data migration helpers, and internal dev automation.
+# 🛠️ inkarus-tools
+
+A collection of helper scripts and development utilities for the [Inkarus](https://github.com/krasimirstoev/inkarus) project.

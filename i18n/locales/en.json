@@ -1,0 +1,580 @@
+{
+  "SettingsPage": {
+    "title": "Settings",
+    "autosave_interval": "Autosave interval (minutes)",
+    "show_status_bar": "Show status bar",
+    "font_choice": "Font choice",
+    "language": "Language",
+    "save": "Save Settings",
+    "saved": "Your preferences have been saved!"
+  },
+  "navbar": {
+    "brand": "Inkarus",
+    "projects": "Projects",
+    "search": "Search",
+    "settings": "Settings",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "footer": {
+    "copyright": "Inkarus © {{year}} — Made with ❤️ for writers"
+  },
+  "NotFoundPage": {
+    "message": "The page you're looking for doesn't exist.",
+    "back": "Back to Projects"
+  },
+  "App": {
+    "name": "Writers Hub"
+  },
+  "Auth": {
+    "Login": {
+      "title": "Login",
+      "error": {
+        "db": "Database error",
+        "not_found": "User not found",
+        "incorrect_password": "Incorrect password"
+      },
+      "email": "Email address",
+      "password": "Password",
+      "button": "Login",
+      "register_link": "Don't have an account? Register here"
+    },
+    "Register": {
+      "title": "Register",
+      "error": {
+        "exists": "User or email already exists",
+        "generic": "Registration error"
+      },
+      "username": "Username",
+      "email": "Email address",
+      "password": "Password",
+      "button": "Register",
+      "login_link": "Already have an account? Login here"
+    }
+  },
+  "Characters": {
+    "Form": {
+      "edit": "Edit Character",
+      "new": "New Character",
+      "name": "Name",
+      "pseudonym": "Pseudonym",
+      "description": "Description",
+      "birthdate": "Birth Date",
+      "gender": "Gender",
+      "origin": "Origin",
+      "occupation": "Occupation",
+      "location": "Location",
+      "health_status": "Health Status",
+      "healthy": "Healthy",
+      "sick": "Sick",
+      "injured": "Injured",
+      "deceased": "Deceased",
+      "comment": "Author Notes",
+      "details": "Character Details",
+      "goal": "Goal",
+      "character_type": "Character Type",
+      "select_type": "Select Type",
+      "protagonist": "Protagonist",
+      "antagonist": "Antagonist",
+      "supporting": "Supporting",
+      "mentor": "Mentor",
+      "other": "Other",
+      "motivation": "Motivation",
+      "fears": "Fears",
+      "weaknesses": "Weaknesses",
+      "arc": "Character Arc",
+      "select_arc": "Select Arc",
+      "arc_positive": "Positive",
+      "arc_negative": "Negative",
+      "arc_flat": "Flat/Static",
+      "secrets": "Secrets",
+      "allies": "Allies (comma-separated IDs)",
+      "enemies": "Enemies (comma-separated IDs)",
+      "optional_relation": "Optional Relationship",
+      "choose_related": "Choose Related Character",
+      "none": "None",
+      "relation_type": "Relation Type",
+      "save": "Save Character",
+      "back": "Back",
+      "relation_placeholder": "e.g. father, rival, ally",
+      "edit_title": "Edit Character",
+      "new_title": "New Character"
+    },
+    "Graph": {
+      "title": "Character Relationships Graph",
+      "back": "Back to Characters"
+    },
+    "List": {
+      "title": "Characters",
+      "relationships": "Relationships",
+      "new": "New Character",
+      "empty": "No characters yet.",
+      "aka": "AKA",
+      "confirm_delete": "Are you sure?",
+      "modal_title": "Character Info",
+      "loading": "Loading..."
+    },
+    "PartialList": {
+      "empty": "No characters found.",
+      "aka": "AKA"
+    },
+    "Profile": {
+      "title": "Characters",
+      "new": "New Character",
+      "empty": "No characters yet.",
+      "no_description": "No description provided.",
+      "health": "Health Status",
+      "edit": "Edit"
+    },
+    "GraphView":{
+      "title": "Character Relationships Graph",
+      "back": "Back to Characters",
+      "connections": "Connections",
+      "click_hint": "Click on a character to see their relationships",
+      "all_characters": "All Characters",
+      "zoom_in": "Zoom In",
+      "zoom_out": "Zoom Out",
+      "save_png": "Save as PNG",
+      "reset_view": "Reset View",
+      "no_relationships": "No relationships found for this character",
+      "title_with_project": "Character Relationships Graph - {{title}}",
+      "error_loading_graph": "❌ Failed to load graph data",
+      "title_heading": "🔗 Character Relationships"
+    },
+    "Relationships": {
+      "title": "Character Relationships",
+      "back": "Back to Characters",
+      "graph_view": "Graph View",
+      "error_same": "A character cannot be related to themselves. Please choose two different characters.",
+      "character": "Character",
+      "related_character": "Related Character",
+      "relation": "Relation",
+      "placeholder": "e.g. sibling, friend",
+      "empty": "No relationships defined yet.",
+      "edit_tooltip": "Edit Relation",
+      "confirm_delete": "Are you sure you want to delete this relationship? This action cannot be undone.",
+      "modal_title": "Edit Relationship",
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "error_missing_fields": "Please fill in all required fields: related character and relation type.",
+      "update_failed": "Failed to update relation.",
+      "update_error": "Error updating relation."
+    },
+    "Modal": {
+      "loading_character": "Loading character...",
+      "failed_to_load": "Failed to load character.",
+      "error_loading": "Error loading character.",
+      "desc": "Description",
+      "goal": "Goal",
+      "type": "Type", 
+      "created": "Created",
+      "updated": "Updated",
+      "no_description": "No description provided.",
+      "motivation": "Motivation",
+      "fears": "Fears",
+      "weaknesses": "Weaknesses",
+      "arc": "Character Arc",
+      "secrets": "Secrets",
+      "allies": "Allies",
+      "enemies": "Enemies",
+      "birthdate": "Birth Date",
+      "gender": "Gender",
+      "origin": "Origin",
+      "occupation": "Occupation",
+      "location": "Location",
+      "health": "Health Status",
+      "comment": "Author Notes"
+    },
+    "Panel": {
+      "loading": "Loading...",
+      "info_title": "Character Info",
+      "no_characters": "No characters found.",
+      "failed_load_list": "Failed to load characters.",
+      "desc": "📖 Description",
+      "goal": "🎯 Goal",
+      "type": "📚 Type",
+      "motivation": "🔥 Motivation",
+      "fears": "😨 Fears",
+      "weaknesses": "💔 Weaknesses",
+      "arc": "🌀 Arc",
+      "secrets": "🤫 Secrets",
+      "allies": "🛡️ Allies",
+      "enemies": "⚔️ Enemies",
+      "birthdate": "🎂 Birth Date",
+      "gender": "⚧ Gender",
+      "origin": "🌍 Origin",
+      "location": "📍 Location",
+      "occupation": "💼 Occupation",
+      "notes": "📝 Notes",
+      "created": "🗓 Created",
+      "updated": "✏️ Updated",
+      "failed_fetch": "❌ Failed to load character data.",
+      "error_fetch": "❌ Error loading character."
+    }
+  },
+  "Notes": {
+    "List": {
+      "title": "Notes",
+      "confirm_delete": "Are you sure you want to delete this note?",
+      "delete_failed": "❌ Failed to delete note.",
+      "delete_error": "❌ Something went wrong.",
+      "empty": "No notes yet.",
+      "new_button": "New Note"
+    },
+    "Form": {
+      "new_title": "New Note",
+      "edit_title": "Edit Note",
+      "title_label": "Title",
+      "content_label": "Content",
+      "save_button": "Save Note",
+      "back_button": "Back to List"
+    },
+    "Errors": {
+      "empty_note_not_allowed": "Empty note not allowed",
+      "not_found": "Note not found"
+    },
+    "Editor": {
+      "title": "Notes Editor",
+      "no_title": "No title",
+      "no_content": "No content",
+      "confirm_delete": "Are you sure you want to delete this note?",
+      "delete_failed": "❌ Failed to delete note",
+      "delete_error": "❌ Error occurred while deleting",
+      "load_failed": "Failed to load note for editing",
+      "generic_error": "Something went wrong. Check console.",
+      "rejected": "⚠ Server rejected the note.",
+      "empty": "No notes yet."
+   }
+  },
+  "Projects": {
+    "List": {
+      "title": "My Projects",
+      "title_heading": "Projects",
+      "new_button": "New Project",
+      "empty": "No projects yet. Start by creating one!",
+      "open_button": "Open",
+      "edit_button": "Edit",
+      "delete_button": "Delete"
+    },
+    "Form": {
+      "new_title": "New Project",
+      "edit_title": "Edit Project",
+      "title_label": "Project Title",
+      "description_label": "Description (optional)",
+      "save_button": "Save",
+      "create_button": "Create Project"
+    },
+    "Dashboard": {
+      "title": "Dashboard",
+      "back_button": "Back to Projects",
+      "drafts": "Drafts",
+      "notes": "Notes",
+      "characters": "Characters",
+      "places": "Geography",
+      "events": "Events",
+      "items": "Items"
+    }
+  },
+  "Items": {
+    "List": {
+      "title": "Items",
+      "addBtn": "Add Item",
+      "noResults": "No items found.",
+      "editTooltip": "Edit Item",
+      "deleteTooltip": "Delete Item",
+      "confirmDelete": "Are you sure you want to delete this item? This action cannot be undone."
+    },
+    "Edit": {
+      "title": "Edit Item"
+    },
+    "New": {
+      "title": "Add Item"
+    },
+    "Status": {
+      "active": "Active",
+      "lost": "Lost",
+      "destroyed": "Destroyed",
+      "custom": "Custom",
+      "custom_placeholder": "Custom status"
+    },
+    "Form":{
+      "name": "Name",
+      "status": "Status",
+      "description": "Description",
+      "customStatusPlaceholder": "Custom status (optional)"
+    },
+    "Modal":{
+      "editTitle": "Edit Item",
+      "addTitle": "Add Item",
+      "loadingTitle": "Loading Item",
+      "loadingBody": "Please wait while we load the item details.",
+      "failed": "Failed to load item.",
+      "error": "Error loading item.",
+      "description": "Description",
+      "status": "Status"
+    },
+    "Panel": {
+      "loading": "Loading items...",
+      "error": "Error loading items",
+      "noResults": "No items found.",
+      "saveError": "❌ Could not save item.",
+      "formError": "❌ Could not load form."
+    },
+    "Profile": {
+      "noDescription": "No description available.",
+      "editBtn": "Edit Item",
+      "closeBtn": "Close"
+    },
+    "FormPage": {
+      "editTitle": "Edit Item",
+      "addTitle": "Add Item",
+      "name": "Name",
+      "status": "Status",
+      "customStatusPlaceholder": "Custom status",
+      "description": "Description",
+      "saveBtn": "💾 Save Item",
+      "backBtn": "← Back to List"
+    },
+    "NotFound": "Item not found"
+  },
+  "Events": {
+    "Page": {
+      "title": "Events"
+    },
+    "List": {
+      "add": "Add Event",
+      "edit": "Edit event",
+      "delete": "Delete"
+    },
+    "Modal": {
+      "title": "Events"
+    },
+    "Timeline": {
+      "delete": "Delete this event?"
+    },
+    "Form": {
+      "title": "Title",
+      "date": "Date",
+      "dateHelp": "YYYY-MM-DD or free-form text for abstract events.",
+      "abstract": "Abstract event",
+      "abstractHelp": "An abstract event represents a conceptual point in time, such as “In the beginning” or “The fall of man”, which does not have a precise date.",
+      "displayOrder": "Display order",
+      "displayOrderHelp": "Used only when \"Abstract\" is checked. Determines the relative position of the abstract event in the timeline. Lower numbers appear earlier.",
+      "description": "Description",
+      "saveChanges": "Save Changes",
+      "create": "Create Event"
+    }
+  },
+"Drafts": {
+  "Page": {
+    "title": "Drafts"
+  },
+  "Group": {
+    "ungrouped": "Ungrouped"
+  },
+   "UI": {
+    "confirm_delete_chapter": "Are you sure you want to delete this chapter?",
+    "rename_failed": "Rename failed",
+    "json_groups_failed": "json-groups failed",
+    "btn_open": "Open",
+    "btn_rename": "Rename",
+    "btn_delete": "Delete",
+    "no_revisions": "No revisions found for this chapter.",
+    "revisions_for": "Revisions for",
+    "revision_count_singular": "revision",
+    "revision_count_plural": "revisions",
+    "confirm_delete_autosaves": "Are you sure you want to delete all autosave revisions?",
+    "autosaves_deleted": "Autosave revisions deleted.",
+    "autosaves_delete_error": "Error deleting autosaves.",
+    "request_failed": "Request failed.",
+    "revision_modal_missing": "❌ Some elements of the revision modal are missing in the DOM",
+    "showing_modal": "🟢 Showing modal now"
+  },
+  "Revisions": {
+    "type_manual": "Manual ★",
+    "type_autosave": "Autosave",
+    "type_unknown": "Unknown",
+    "confirm_delete_all_autosaves": "Are you sure you want to delete all autosave revisions?",
+    "words": "words",
+    "button_restore": "Restore",
+    "button_preview": "Preview",
+    "button_delete": "Delete",
+    "loading": "Loading...",
+    "error_loading": "Error loading revisions",
+    "none": "No revisions available.",
+    "revision_count_singular": "1 revision",
+    "revision_count_plural": "{{count}} revisions",
+    "restored": "✅ Revision restored.",
+    "restore_failed": "❌ Failed to restore revision.",
+    "confirm_restore": "Are you sure you want to restore this revision?",
+    "confirm_delete": "Are you sure you want to delete this revision? This action cannot be undone.",
+    "delete_failed": "❌ Failed to delete revision.",
+    "preview_loading": "Loading...",
+    "preview_failed": "Error loading preview.",
+    "autosave_delete_failed": "❌ Failed to delete autosave revisions.",
+    "autosave_deleted": "🧹 All autosave revisions deleted.",
+    "request_failed": "⚠️ Request failed."
+  },
+  "TheEditor": {
+    "sidebar_projects": "Projects",
+    "sidebar_notes": "Notes",
+    "sidebar_characters": "Characters",
+    "sidebar_places": "Geography",
+    "sidebar_items": "Items",
+    "sidebar_outline": "Outline",
+    "last_autosave": "Last autosave",
+    "last_autosave_time": "Never",
+    "word_count": "Word count",
+    "save_now": "Save Now",
+    "history": "History",
+    "back": "Back",
+    "fullscreen": "Full Screen",
+    "reading_mode": "Reading Mode",
+    "exit_reading": "Exit Reading",
+    "exit_fullscreen": "Exit Fullscreen",
+    "project_notes": "Project Notes",
+    "note_title": "Title",
+    "note_content": "Content",
+    "add_note": "Add Note",
+    "notes_placeholder": "Your notes will appear here.",
+    "characters": "Characters",
+    "search_characters": "Search characters...",
+    "characters_placeholder": "Characters will appear here.",
+    "character_info": "Character Info",
+    "places": "Places",
+    "search_places": "Search places…",
+    "place_info": "Place Info",
+    "items": "Items",
+    "search_items": "Search items…",
+    "item_info": "Item Info",
+    "RevisionsModalTitle": "Revisions",
+    "delete_autosaves": "Delete all autosave revisions",
+    "RevisionPreviewModalTitle": "Revision Preview"
+  },
+  "List": {
+    "new_chapter_title": "New chapter title...",
+    "add_chapter": "Add Chapter",
+    "parts": "Parts",
+    "no_parts": "No parts or chapters found.",
+    "ungrouped_label": "Ungrouped (Without Part)",
+    "ungrouped_option": "Ungrouped",
+    "open": "Open",
+    "rename": "Rename",
+    "delete": "Delete",
+    "drop_here": "Drop here",
+    "rename_modal_title": "Rename Chapter",
+    "rename_new_title": "New Title",
+    "rename_save": "Save",
+    "rename_cancel": "Cancel",
+    "manage_parts": "Manage Parts"
+  }
+},  
+"Parts": {
+    "Page": {
+      "title": "Parts"
+    },
+    "Form": {
+      "new": "New Part",
+      "edit": "Edit Part",
+      "back": "Back to Parts",
+      "titleLabel": "Title",
+      "orderLabel": "Order",
+      "create": "Create Part",
+      "update": "Update Part"
+    },
+    "Error": {
+      "loadForm": "Error loading form"
+    },
+    "Button": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "Confirm": {
+      "delete": "Delete this part?"
+    },
+    "List": {
+      "new": "New part",
+      "add": "Add Part",
+      "empty": "No parts defined yet.",
+      "placeholderTitle": "Part title…",
+      "placeholderOrder": "Order"
+    },
+    "Tooltip": {
+      "title": "A short name for this part. Example: 'Part I', 'Part II', 'Part III' and so on.",
+      "order": "Controls the order in which parts appear. Lower numbers come first."
+    },
+    "Help": {
+      "title": "How book structure works:",
+      "description1": "Books are often organized into <b>Volumes</b>, <b>Parts</b> and <b>Chapters</b>.",
+      "description2": "In <b>Inkarus</b>, <b>Parts</b> are especially useful for grouping related chapters into larger logical sections — like story arcs, timelines, or themes.",
+      "description3": "For example: <b>Volume I</b> → <b>Part 1</b> → <b>Chapter 1</b>",
+      "description4": "Using <b>Parts</b> helps you stay organized and focused while writing, making it easier to manage the flow of your story and work on one section at a time.",
+      "titleHint": "Use a clear and meaningful name to organize your chapters.",
+      "orderHint": "This helps structure your book – parts with smaller numbers appear earlier."
+    }
+  },
+  "Places": {
+    "Loading": "Loading...",
+    "Page": {
+      "title": "Places"
+    },
+    "Form": {
+      "add": "Add Place",
+      "edit": "Edit Place",
+      "nameLabel": "Name",
+      "typeLabel": "Type",
+      "descriptionLabel": "Description (optional)",
+      "customPlaceholder": "Custom type (optional)"
+    },
+    "List": {
+      "add": "Add Place",
+      "new": "New Place",
+      "empty": "No places yet."
+    },
+    "Type": {
+      "city": "City",
+      "village": "Village",
+      "country": "Country",
+      "continent": "Continent",
+      "mountain": "Mountain",
+      "river": "River",
+      "sea": "Sea",
+      "lake": "Lake",
+      "forest": "Forest",
+      "desert": "Desert",
+      "region": "Region",
+      "island": "Island",
+      "planet": "Planet",
+      "custom": "Custom"
+    },
+    "Error": {
+      "notFound": "Place not found",
+      "loadFailed": "Error loading place",
+      "formLoad": "Error loading form",
+      "saveFailed": "Could not save place"
+    },
+    "Empty": {
+      "notFound": "No places found.",
+      "noDescription": "No description available."
+    },
+    "Button": {
+      "edit": "Edit",
+      "close": "Close",
+      "savePlace": "Save Place",
+      "backToList": "← Back to List"
+    },
+    "Confirm": {
+      "delete": "Delete this place?"
+    }
+  },
+  "Errors": {
+    "Items": {
+      "load": "❌ DB error loading items:"
+    }
+  },
+  "Common": {
+    "save": "Save",
+    "close": "Close"
+  }
+}
